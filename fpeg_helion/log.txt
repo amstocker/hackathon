@@ -1,0 +1,22 @@
+Using manifest file "manifest.yml"
+Updating application 'fpeg'...
+Application Url:   http://fpeg.15.126.207.64.xip.io
+Comparing Application [fpeg] to [https://api.15.126.207.64.xip.io -> Developer Week -> Team Zeta -> fpeg] ... 
+  Kept  http://fpeg.15.126.207.64.xip.io ... 
+Uploading Application [fpeg] ... 
+  Checking for bad links ...  OK
+  Copying to temp space ...  OK
+  Checking for available resources ...  OK
+  Processing resources ... OK
+  Packing application ... OK
+  Uploading (3K) ...  OK
+Push Status: OK
+Stopping Application [fpeg] ... OK
+Starting Application [fpeg] ... 
+stackato[dea_ng.0]: Instance has been stopped upon request
+stackato[dea_ng]: Staging application
+staging: -----> Downloaded app package (4.0K)
+staging: -----> Downloaded app buildpack cache (4.0K)
+staging: -----> Using Python-2.7 (ActivePython)
+staging: -----> Installing requirements via pip
+staging:        Downloading/unpacking bottle (from -r requirements.txt (line 1))

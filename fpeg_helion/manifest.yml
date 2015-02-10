@@ -1,0 +1,8 @@
+applications:
+  .:
+   name: fpeg
+   mem: 1024M
+   stackato:
+     requirements:
+       ubuntu:
+         - libjpeg-dev
